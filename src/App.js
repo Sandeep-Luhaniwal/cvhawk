@@ -14,13 +14,13 @@ import Resume from './compoments/Resume';
 import Design from './compoments/Design';
 import Themeslider from './compoments/Themeslider';
 import Slidersay from './compoments/Slidersay';
-import Preloader from './compoments/Preloader';
 import BackToTop from './compoments/BacktoTop';
+import Preloder from './compoments/Preloder';
 
 function App() {
   return (
     <>
-      <Preloader />
+      <Preloder />
       <Nav />
       <Header />
       <Themeslider />
