@@ -17,8 +17,8 @@ const Slidercontent = () => {
     var settings = {
         dots: true,
         autoplay: false,
-        speed: 1000,
-        autoplaySpeed: 0,
+        speed: 3000,
+        autoplaySpeed: 1000,
         arrows: false,
         slidesToShow: 3,
         slidesToScroll: 1,

@@ -5,7 +5,8 @@
   text-decoration: none !important;
   list-style-type: none !important;
 }
-body{
+
+body {
   overflow: hidden;
 }
 
@@ -37,6 +38,12 @@ body{
   transition: all linear 0.3s;
 }
 
+.inline-btn:hover {
+  background-color: transparent;
+  box-shadow: 0px 2px 4px 0px var(--primary-color);
+  color: var(--black-color) !important;
+}
+
 .inline-btn2 {
   background-color: var(--white-color);
   padding: 17px 38px;
@@ -45,12 +52,10 @@ body{
   transition: all linear 0.3s;
 }
 
-.inline-btn {
-  background-color: var(--primary-color);
-  padding: 17px 38px;
-  border-radius: 41px;
-  border: 1px solid var(--primary-color);
-  transition: all linear 0.3s;
+.inline-btn2:hover {
+  background-color: var(--black-color);
+  color: var(--white-color) !important;
+  border: 1px solid var(--black-color);
 }
 
 .inline-btn3 {
@@ -59,6 +64,12 @@ body{
   border-radius: 41px;
   border: 1px solid var(--primary-color);
   transition: all linear 0.3s;
+}
+
+.inline-btn3:hover {
+  background-color: var(--black-color) !important;
+  border: 1px solid var(--black-color);
+  color: var(--white-color) !important;
 }
 
 .br-21 {
@@ -486,24 +497,17 @@ body{
   border: none !important;
 }
 
+.footerIcon:hover svg path {
+  fill: #F36A3E;
+}
 
+.footerIcon1:hover svg path {
+  stroke: #F36A3E;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hoverfooter:hover {
+  color: var(--primary-color) !important;
+}
 
 
 
