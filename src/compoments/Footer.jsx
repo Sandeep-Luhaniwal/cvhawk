@@ -14,9 +14,9 @@ const Footer = () => {
                             <p className='ff_primary fs_sm fw_regular mb-0 pb-2 color_main'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat id facilisis.</p>
                             <div className='d-none d-sm-block'>
                                 <div className='d-flex gap-32 pt-4 '>
-                                    <a className='footerIcon' href=""> <TwitterIcon /></a>
-                                    <a className='footerIcon1' href=""><FacbookIcon /></a>
-                                    <a className='footerIcon1' href=""><InstagramIcon /></a>
+                                    <a className='footerIcon' href="https://twitter.com/"> <TwitterIcon /></a>
+                                    <a className='footerIcon1' href="https://facbook.com/"><FacbookIcon /></a>
+                                    <a className='footerIcon1' href="https://instagram.com/"><InstagramIcon /></a>
                                 </div>
                             </div>
                         </Col>
@@ -46,9 +46,9 @@ const Footer = () => {
                                 <li><a href="#" className='ff_primary fs_sm fw_regular op-9 color_main hoverfooter'>Terms & conditions</a></li>
                             </ul>
                             <div className='d-flex gap-32 pt-4 mt-1 d-sm-none'>
-                                <TwitterIcon />
-                                <FacbookIcon />
-                                <InstagramIcon />
+                                <a className='footerIcon' href="https://twitter.com/"> <TwitterIcon /></a>
+                                <a className='footerIcon1' href="https://facbook.com/"><FacbookIcon /></a>
+                                <a className='footerIcon1' href="https://instagram.com/"><InstagramIcon /></a>
                             </div>
                         </Col>
                     </Row>
