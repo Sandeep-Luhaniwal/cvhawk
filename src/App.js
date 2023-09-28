@@ -14,10 +14,13 @@ import Resume from './compoments/Resume';
 import Design from './compoments/Design';
 import Themeslider from './compoments/Themeslider';
 import Slidersay from './compoments/Slidersay';
+import Preloader from './compoments/Preloader';
+import BackToTop from './compoments/BacktoTop';
 
 function App() {
   return (
     <>
+      <Preloader />
       <Nav />
       <Header />
       <Themeslider />
@@ -29,6 +32,7 @@ function App() {
       <Accrodian />
       <Start />
       <Footer />
+      <BackToTop />
     </>
   );
 }
