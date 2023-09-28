@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import reloder_img from '../assets/images/png/Main_logo.png'
 
-function Preloder() {
+function Preloader() {
     const [loder, setloader] = useState(true);
     useEffect(() => {
         setTimeout(() => {
