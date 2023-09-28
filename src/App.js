@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Nav from './compoments/Nav';
+import './assets/css/Root.css'
+import Accrodian from './compoments/Accrodian';
+import Header from './compoments/Header';
+import Start from './compoments/Start';
+import Footer from './compoments/Footer';
+import Help from './compoments/Help';
+import Powerfull from './compoments/Powerfull';
+import Resume from './compoments/Resume';
+import Design from './compoments/Design';
+import Themeslider from './compoments/Themeslider';
+import Slidersay from './compoments/Slidersay';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      <Themeslider />
+      <Powerfull />
+      <Help />
+      <Design />
+      <Resume />
+      <Slidersay />
+      <Accrodian />
+      <Start />
+      <Footer />
+    </>
   );
 }
 
